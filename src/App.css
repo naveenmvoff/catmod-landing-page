@@ -3,6 +3,32 @@
 @tailwind utilities;
 
 
-.bg-blackss {
+.bg-primary {
   @apply bg-[#292929];
 }
+
+.color-orange {
+  @apply text-[#F05D23];
+}
+
+.btn {
+  @apply bg-[#F05D23] px-5 py-2 font-bold hover:border-2 border-white rounded-full;
+}
+
+.text-button {
+  @apply text-[#F05D23] font-bold hover:font-extrabold hover:underline;
+}
+
+html, body {
+  @apply bg-[#292929] h-full;
+  margin: 0;
+}
+
+.mobile-nav {
+  @apply bg-gray-700;
+}
+
+.mobile-nav ul li {
+  @apply flex justify-center  w-full border-b-2 border-white border-opacity-10;
+}
+
