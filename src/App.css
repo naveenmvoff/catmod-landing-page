@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+>>>>>>> Digital
 
 
 html {
@@ -31,6 +35,13 @@ html {
   @apply bg-[#F05D23] px-5 py-2 font-bold hover:border-2 border-white rounded-full;
 }
 
+<<<<<<< HEAD
+=======
+.btnStart {
+  @apply bg-[#F05D23] px-5 py-4 font-bold hover:border-2 border-[#363636] rounded-full;
+}
+
+>>>>>>> Digital
 .text-button {
   @apply text-[#F05D23] font-bold hover:font-extrabold hover:underline;
 }
