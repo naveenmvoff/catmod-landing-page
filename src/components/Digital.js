@@ -50,8 +50,22 @@
                         <img 
                             src={DigitalImage} 
                             alt="Digital Creation" 
-                            className='hidden md:hidden lg:block xl:hidden w-[500px] h-[300px] mx-auto relative z-10 ml-10 mr-5'
+                            className='hidden md:hidden lg:block xl:hidden w-[500px] h-[300px] mx-auto relative z-10 ml-10 mr-5 pl-10'
                         />
+                        <img 
+                            src={DigitalImage} 
+                            alt="Digital Creation" 
+                            className='hidden md:block lg:hidden w-[500px] h-[300px] mx-auto relative z-10 flex justify-center items-center'
+                        />
+
+                        <img 
+                            src={DigitalImage} 
+                            alt="Digital Creation" 
+                            className='sm:block md:hidden w-[500px] h-[300px] mx-auto relative z-10 flex justify-center items-center px-10'
+                        />
+
+
+
 
                         <div
                             className="hidden 2xl:block absolute"
@@ -88,7 +102,7 @@
                     </p>
                 </div>
 
-                <div className='block xl:hidden w-full lg:w-1/2'>
+                <div className='md:py-10 lg:block xl:hidden w-full lg:w-1/2 pl-14 mt-5'>
                     <h1 className='text-4xl font-Open Sans font-bold color-orange text-left pr-14'>
                         Welcome to the Future of Digital Creation
                     </h1>
