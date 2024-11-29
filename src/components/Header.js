@@ -7,7 +7,8 @@ export default function Header() {
 
     return (
         <>
-            <header className='bg-primary px-10 py-5 flex justify-between items-center border-b-[0.1px] border-[#E2E8F0] border-opacity-20'>
+            {/* <header className='bg-primary px-10 py-5 flex justify-between items-center border-b-[0.1px] border-[#E2E8F0] border-opacity-20'> */}
+            <header className='fixed top-0 left-0 w-full bg-primary px-10 py-5 flex justify-between items-center border-b-[0.1px] border-[#E2E8F0] border-opacity-20 z-50'>
                 
                 <a href="#"><img src={logo} alt="Catmod Logo"/></a>
                 

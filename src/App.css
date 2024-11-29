@@ -1,11 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
-=======
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
->>>>>>> Digital
-
 
 html {
   scroll-behavior: smooth;
@@ -31,17 +27,18 @@ html {
   @apply text-[#F05D23];
 }
 
+.color-orange-image {
+  @apply text-[#F05D23] font-bold text-3xl;
+}
+
 .btn {
-  @apply bg-[#F05D23] px-5 py-2 font-bold hover:border-2 border-white rounded-full;
+  @apply bg-[#F05D23] border-[#363636] border-2 px-5 py-2 font-bold text-white/80 hover:bg-[#F05D23]/90  hover:border-[#fdfdfd]/5 rounded-full;
 }
 
-<<<<<<< HEAD
-=======
 .btnStart {
-  @apply bg-[#F05D23] px-5 py-4 font-bold hover:border-2 border-[#363636] rounded-full;
+  @apply bg-[#F05D23] border-[#363636] border-2 px-5 py-4 font-bold hover:bg-[#F05D23]/90 hover:border-[#fdfdfd]/5 rounded-full;
 }
 
->>>>>>> Digital
 .text-button {
   @apply text-[#F05D23] font-bold hover:font-extrabold hover:underline;
 }
@@ -59,3 +56,6 @@ html, body {
   @apply flex justify-center  w-full border-b-2 border-white border-opacity-10;
 }
 
+.textopp :hover .temp{
+  @apply text-red-700 opacity-50;
+}

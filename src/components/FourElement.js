@@ -5,7 +5,7 @@ const WhyChoose = () => {
         {
             number: "'01",
             title: "Democratize Digital Creation",
-            description: "Empower anyone—regardless of technical skill—to create digital solutions."
+            description: "Empower anyone-regardless of technical skill-to create digital solutions."
         },
         {
             number: "'02",

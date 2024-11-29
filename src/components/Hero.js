@@ -6,7 +6,7 @@ import heroDown from '../assets/Hero-down.png'
 
 export default function Hero() {
     return (
-        <section>
+        <section className='pt-20'>
             <section className='hidden xl:block px-20 py-16 flex justify-center items-center'>
                 <div className='px-20 bg-[#353433] rounded-[46px] flex'>
                 <div className='w-2/3'>
